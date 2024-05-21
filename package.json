@@ -1,0 +1,19 @@
+{
+  "name": "assignment-3-koheid1",
+  "version": "1.0.0",
+  "description": "https://incomparable-swan-4cb161.netlify.app/",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/comp2537-s24/assignment-3-KoheiD1.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/comp2537-s24/assignment-3-KoheiD1/issues"
+  },
+  "homepage": "https://github.com/comp2537-s24/assignment-3-KoheiD1#readme"
+}

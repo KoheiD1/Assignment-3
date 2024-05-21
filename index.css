@@ -1,0 +1,171 @@
+body {
+  font-family: 'Roboto', sans-serif;
+  background-color: #f0f4f8;
+  margin: 0;
+  padding: 0;
+}
+
+#filters {
+  padding: 20px;
+  background-color: #ffffff;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  margin: 20px auto;
+  max-width: 800px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+#pokeCards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 20px;
+  max-width: 1200px;
+  margin: auto;
+}
+
+.pokeCard {
+  width: 200px;
+  height: 260px;
+  margin: 10px;
+  border: none;
+  border-radius: 16px;
+  background-color: #ffffff;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px;
+  transition: transform 0.2s;
+}
+
+.pokeCard:hover {
+  transform: scale(1.05);
+}
+
+.pokeCard img {
+  width: 100px;
+  height: 100px;
+  object-fit: contain;
+}
+
+.pokeCard h3 {
+  font-size: 1.2rem;
+  color: #333;
+  margin: 10px 0;
+}
+
+.pokeCard button {
+  background-color: #17a2b8;
+  color: #ffffff;
+  border: none;
+  border-radius: 8px;
+  padding: 8px 12px;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+.pokeCard button:hover {
+  background-color: #138496;
+}
+
+.modal-header {
+  border-bottom: none;
+}
+
+.modal-title {
+  font-size: 1.5rem;
+  color: #333;
+}
+
+.modal-body {
+  padding: 20px;
+  font-size: 1rem;
+  color: #555;
+  background-color: #f8f9fa;
+  border-radius: 8px;
+}
+
+.modal-body h3 {
+  font-size: 1.3rem;
+  color: #333;
+  margin-bottom: 15px;
+}
+
+.modal-body ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.modal-body ul li {
+  background: #e9ecef;
+  margin: 5px 0;
+  padding: 10px;
+  border-radius: 8px;
+}
+
+#pagination {
+  margin: 20px 0;
+  display: flex;
+  justify-content: center;
+}
+
+.numberedButtons {
+  background-color: #17a2b8;
+  color: #ffffff;
+  border: none;
+  border-radius: 8px;
+  margin: 0 5px;
+  padding: 8px 12px;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+.numberedButtons:hover {
+  background-color: #138496;
+}
+
+.numberedButtons:disabled {
+  background-color: #dcdcdc;
+  cursor: not-allowed;
+}
+
+.startButton,
+.endButton {
+  background-color: #007bff;
+  color: #ffffff;
+  border: none;
+  border-radius: 8px;
+  margin: 0 5px;
+  padding: 8px 12px;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+.startButton:hover,
+.endButton:hover {
+  background-color: #0056b3;
+}
+
+/* Type-based colors */
+.type-normal { background-color: #A8A77A; }
+.type-fire { background-color: #EE8130; }
+.type-water { background-color: #6390F0; }
+.type-electric { background-color: #F7D02C; }
+.type-grass { background-color: #7AC74C; }
+.type-ice { background-color: #96D9D6; }
+.type-fighting { background-color: #C22E28; }
+.type-poison { background-color: #A33EA1; }
+.type-ground { background-color: #E2BF65; }
+.type-flying { background-color: #A98FF3; }
+.type-psychic { background-color: #F95587; }
+.type-bug { background-color: #A6B91A; }
+.type-rock { background-color: #B6A136; }
+.type-ghost { background-color: #735797; }
+.type-dragon { background-color: #6F35FC; }
+.type-dark { background-color: #705746; }
+.type-steel { background-color: #B7B7CE; }
+.type-fairy { background-color: #D685AD; }
